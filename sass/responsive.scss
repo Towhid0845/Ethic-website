@@ -1,0 +1,574 @@
+@media (min-width:1400px) and (max-width:1799px) {
+
+  // common css start
+  .common-title h2 {
+    font-size: 35px;
+  }
+
+  // navbar part start
+  nav ul .nav-item .nav-link {
+    padding: 0 14px !important;
+  }
+
+  nav .call-for-show {
+    margin-left: 40px;
+    padding: 12px 30px;
+  }
+
+  // navbar part end
+
+  // banner part start
+  .banner .slider-item .text h1 {
+    font-size: 60px;
+  }
+
+  // production part css
+  .production .production-video .production-main .video-item .overlay .icon i {
+    width: 65px;
+    height: 40px;
+    background-color: red;
+    line-height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  // upcomming event css
+  .event-item .text .title {
+    font-size: 20px;
+  }
+}
+
+// extra large device responsive
+@media (min-width:1200px) and (max-width:1399px) {
+
+  // common css start
+  .common-title h2 {
+    font-size: 35px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  header .link a {
+    font-size: 14px;
+  }
+
+  // navbar part start
+  nav ul .nav-item .nav-link {
+    padding: 0 12px !important;
+  }
+
+  nav ul .nav-item .nav-link {
+    font-size: 14px !important;
+  }
+
+  nav .call-for-show {
+    margin-left: 30px;
+    font-size: 13px;
+    padding: 12px 18px;
+  }
+
+  .navbar .navbar-brand img {
+    width: 120px;
+  }
+
+  // navbar part end
+
+  // banner part start
+  .banner .slider-item .text h1 {
+    font-size: 50px;
+  }
+
+  .banner .slider-item {
+    padding: 170px 0;
+  }
+
+  // banner part end
+  // ec member part start
+  .ec-member-item {
+    height: 379px;
+  }
+
+  // ec member part end
+  // featured shows part start
+  .featured-shows .image {
+    height: 326px;
+  }
+
+  // featured shows part end
+
+  // production part css
+  .production .production-video .production-main .video-item .overlay .icon i {
+    width: 55px;
+    height: 35px;
+    background-color: red;
+    line-height: 36px;
+    border-radius: 8px;
+    font-size: 13px;
+  }
+
+  .production .production-bg {
+    height: 540px;
+  }
+
+  .production .production-video {
+    height: 620px;
+  }
+
+  .production .production-video .production-main .video-item .text .title {
+    font-size: 15px;
+  }
+
+  // upcomming event css
+  .event-item .text .title {
+    font-size: 20px;
+  }
+
+  // footer css
+  footer .footer-title h4 {
+    font-size: 22px;
+  }
+}
+
+// large device responsive
+@media (min-width:992px) and (max-width:1199px) {
+  body {
+    font-size: 14px;
+  }
+
+  header .link a {
+    font-size: 14px;
+  }
+
+  // common css start
+  .common-title h2 {
+    font-size: 30px;
+  }
+
+  .common-btn a {
+    padding: 15px 20px;
+  }
+
+
+  // nav css
+  nav ul .nav-item .nav-link {
+    font-size: 14px !important;
+    padding: 0 8px !important;
+  }
+
+  nav .call-for-show {
+    margin-left: 20px;
+    font-size: 14px;
+    padding: 9px 5px;
+  }
+
+  .navbar .navbar-brand img {
+    width: 120px;
+  }
+
+  // banner part start
+  .banner .slider-item .text h1 {
+    font-size: 40px;
+  }
+
+  // about css
+  .about .image .big-image img {
+    width: 85% !important;
+  }
+
+  .about .image .sm-image img {
+    width: 85% !important;
+  }
+
+  .about .image .sm-image {
+    right: -65px;
+  }
+
+  .about .image .sm-image button {
+    width: 65px;
+    height: 65px;
+    transform: translate(-90%, -50%);
+  }
+
+  .common-title {
+    margin-bottom: 20px;
+  }
+
+  .about .text {
+    padding-top: 30px;
+  }
+
+  .featured-shows .text .title {
+    font-size: 20px;
+  }
+
+  // production css
+  .production .production-video .production-main .video-item .overlay .icon i {
+    width: 45px;
+    height: 30px;
+    background-color: red;
+    line-height: 30px;
+    border-radius: 7px;
+    font-size: 12px;
+  }
+
+  .production .production-bg {
+    height: 480px;
+  }
+
+  .production .production-video {
+    height: 565px;
+  }
+
+  .production .production-video .production-main .video-item .text .title {
+    font-size: 14px;
+  }
+
+  // upcomming event css
+  .event-item .text .title {
+    font-size: 20px;
+  }
+
+  .event-item .buy-ticket a {
+    padding: 9px 20px;
+  }
+
+  .event-item .text ul li {
+    line-height: 25px;
+  }
+
+  .event-item .text .title {
+    line-height: 25px;
+  }
+
+  .event-item .date h5 {
+    font-size: 55px;
+  }
+
+  // gallery css
+  .gallery .gallery-bg .gallery-button ul li .nav-link {
+    padding: 12px 14px;
+    font-size: 13px;
+  }
+
+  // activities css
+  .our-activities .activities-bg .activities-item .text h4 {
+    font-size: 20px;
+  }
+
+  // footer css
+  footer .footer-title h4 {
+    font-size: 22px;
+  }
+
+  footer .footer-contact-us ul li {
+    line-height: 30px;
+  }
+
+  footer .quick-links ul li {
+    line-height: 30px;
+  }
+
+  footer .footer-ticket ul li {
+    line-height: 30px;
+  }
+
+}
+
+// medium device responsive
+@media (min-width:768px) and (max-width:991px) {
+
+  // common css start
+  .common-title {
+    margin-bottom: 20px;
+
+    h2 {
+      font-size: 25px;
+      line-height: 40px;
+    }
+
+    p {
+      margin-bottom: 5px;
+    }
+  }
+  .common-btn a {
+    padding: 10px 15px;
+  }
+  // common end
+  // nav css start
+  .navbar .navbar-brand img {
+    width: 80px;
+  }
+  // nav end
+  // banner part start
+  .banner .slider-item {
+    padding: 150px 0;
+
+    .text h1 {
+      font-size: 35px;
+      margin-bottom: 35px;
+    }
+
+    .text p {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+  }
+
+  .banner-slider ul {
+    bottom: 25px;
+  }
+  // banner end
+  // about css start
+  .about .image .big-image img {
+    width: 60% !important;
+  }
+
+  .about .image .sm-image img {
+    width: 65% !important;
+  }
+
+  .about .image .sm-image {
+    right: -130px;
+    bottom: -75px;
+  }
+
+  .about .image .sm-image button {
+    width: 65px;
+    height: 65px;
+    left: 34%;
+  }
+
+  .about .text {
+    padding: 0 25px;
+
+  }
+
+  .fixed-ticket {
+    width: 46px;
+
+    .buy-ticket {
+      padding: 10px 10px;
+      min-width: 100px;
+      top: -73px;
+      left: -27px;
+    }
+
+    .tickets {
+      width: 46px;
+      height: 45px;
+      line-height: 35px;
+      font-size: 20px;
+    }
+  }
+
+  // member css
+  .ec-member-item {
+    height: 248px;
+
+    .text h4 {
+      font-size: 20px;
+      margin-bottom: 5px;
+
+    }
+  }
+
+  // show css
+  .featured-shows .text {
+    .more-info {
+      font-size: 14px;
+
+      &::before {
+        top: 11px;
+        left: calc(100% - -10px);
+        width: 20px;
+      }
+    }
+
+    .title {
+      font-size: 20px;
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .feature-item {
+    .image {
+      height: 220px;
+    }
+  }
+
+
+  // production css
+  .production .production-video .production-main .video-item .overlay .icon i {
+    width: 35px;
+    height: 25px;
+    background-color: red;
+    line-height: 25px;
+    border-radius: 6px;
+    font-size: 9px;
+  }
+
+  .production .production-bg {
+    height: 300px;
+  }
+
+  .production .production-video {
+    height: 380px;
+    padding: 30px;
+  }
+
+  .production .production-video .production-main .video-item .text .title {
+    font-size: 12px;
+    padding: 5px 6px;
+  }
+
+  // activities css
+  .our-activities .activities-bg .activities-item .text h4 {
+    font-size: 20px;
+  }
+
+
+  // upcomming event css
+  .event-item .text .title {
+    font-size: 20px;
+  }
+
+  .event-item .buy-ticket a {
+    padding: 7px;
+    text-align: center;
+    font-size: 12;
+  }
+
+  .event-item .text ul li {
+    line-height: 20px;
+  }
+
+  .event-item .text .title {
+    line-height: 22px;
+  }
+
+  .event-item .date h5 {
+    font-size: 40px;
+  }
+
+  // news css+
+  .small-news-item {
+    .text .title {
+      -webkit-line-clamp: 1;
+    }
+
+    .text p {
+      line-height: 20px;
+      font-size: 15px;
+      -webkit-line-clamp: 3;
+    }
+
+    .text span {
+      margin: 5px 0;
+    }
+
+    .text .read-more {
+      margin-top: 6px;
+    }
+  }
+
+  // call for show
+  .call-for-show .call-for-show-bg .text {
+    h4 {
+      font-size: 30px;
+    }
+
+    .call-for-show-btn {
+      padding: 10px 25px;
+    }
+  }
+
+  // gallery css
+  .gallery .gallery-bg .gallery-button ul li .nav-link {
+    padding: 11px;
+    font-size: 12px;
+  }
+
+  .gallery .gallery-bg .gallery-main .photo-gallery .photo-item .image .overlay h5 {
+    font-size: 18px;
+  }
+
+  .gallery .gallery-bg .view-all a {
+    padding: 10px 30px;
+  }
+
+  // client css
+  .client .client-bg .client-item {
+    padding: 25px;
+  }
+
+
+  // footer css
+  footer .footer-title {
+    margin-bottom: 15px;
+
+    h4 {
+      font-size: 17px;
+    }
+  }
+
+  footer .footer-contact-us ul li {
+    line-height: 25px;
+  }
+
+  footer .quick-links ul li {
+    line-height: 25px;
+  }
+
+  footer .footer-ticket ul li {
+    line-height: 25px;
+  }
+
+  footer .footer-bottom p {
+    font-size: 12px;
+  }
+
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    // common css start
+    .common-title {
+      margin-bottom: 15px;
+      h2 {
+        font-size: 20px;
+        line-height: 30px;
+      }
+  
+      p {
+        margin-bottom: 5px;
+      }
+    }
+
+    .common-btn a {
+      padding: 7px 10px;
+    }
+    // common end
+    // banner css start
+    // .banner .slider-item {
+    //   padding: 150px 0;
+  
+    //   .text h1 {
+    //     font-size: 35px;
+    //     margin-bottom: 35px;
+    //   }
+  
+    //   .text p {
+    //     margin-bottom: 10px;
+    //     font-size: 14px;
+    //   }
+    // }
+  
+    // .banner-slider ul {
+    //   bottom: 25px;
+    // }
+    // banner end
+}
