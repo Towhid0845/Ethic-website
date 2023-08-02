@@ -1,6 +1,21 @@
 $(function () {
   "use strict";
 
+
+  // menu top
+	// var menuTop = $(".log").offset().top;
+	var menuTop = 100;
+	// alert(menuTop);
+  $(window).on("scroll", function () {
+		var scrTop = $(window).scrollTop();
+		if (scrTop > menuTop) {
+			$(".logo img").addClass("fixed");
+		} else {
+			$(".logo img").removeClass("fixed");
+		}
+  });
+
+
   // banner slider
   $('.banner-slider').slick({
     slidesToShow: 1,
@@ -47,6 +62,25 @@ $(function () {
     pauseOnHover: true,
     prevArrow: '<i class="fas fa-long-arrow-alt-left icon left"></i>',
     nextArrow: '<i class="fas fa-long-arrow-alt-right icon right"></i>',
+    responsive: [{
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+      }
+    }
+  ]
   })
 
   // feature slider
@@ -62,6 +96,25 @@ $(function () {
     speed: 2500,
     cssEase: "linear",
     pauseOnHover: true,
+    responsive: [{
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 2,
+      }
+    }
+  ]
   })
   // client slider
   $('.client-slider').slick({
@@ -76,6 +129,25 @@ $(function () {
     speed: 2500,
     cssEase: "linear",
     pauseOnHover: true,
+    responsive: [{
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 4,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 2,
+      }
+    }
+  ]
   })
 
 

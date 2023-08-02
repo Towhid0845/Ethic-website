@@ -184,12 +184,11 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .common-title {
     margin-bottom: 20px; }
+    .common-title h2 {
+      font-size: 25px;
+      line-height: 40px; }
     .common-title p {
       margin-bottom: 5px; }
-
-  .common-title h2 {
-    font-size: 25px;
-    line-height: 40px; }
 
   .common-btn a {
     padding: 10px 15px; }
@@ -197,16 +196,17 @@
   .navbar .navbar-brand img {
     width: 80px; }
 
+  .banner {
+    margin: 0; }
+
   .banner .slider-item {
     padding: 150px 0; }
-
-  .banner .slider-item .text h1 {
-    font-size: 35px;
-    margin-bottom: 35px; }
-
-  .banner .slider-item .text p {
-    margin-bottom: 10px;
-    font-size: 14px; }
+    .banner .slider-item .text h1 {
+      font-size: 35px;
+      margin-bottom: 35px; }
+    .banner .slider-item .text p {
+      margin-bottom: 10px;
+      font-size: 14px; }
 
   .banner-slider ul {
     bottom: 25px; }
@@ -243,7 +243,7 @@
       font-size: 20px; }
 
   .ec-member-item {
-    height: 248px; }
+    height: 318px; }
     .ec-member-item .text h4 {
       font-size: 20px;
       margin-bottom: 5px; }
@@ -260,7 +260,7 @@
     font-size: 14px; }
 
   .feature-item .image {
-    height: 220px; }
+    height: 285px; }
 
   .production .production-video .production-main .video-item .overlay .icon i {
     width: 35px;
@@ -346,5 +346,384 @@
 
   footer .footer-bottom p {
     font-size: 12px; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  .common-title {
+    margin-bottom: 15px; }
+    .common-title h2 {
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center !important; }
+    .common-title p {
+      margin-bottom: 5px;
+      text-align: center !important; }
+
+  .common-btn a {
+    padding: 6px 10px;
+    font-size: 12px; }
+
+  .banner {
+    margin: 0; }
+
+  .banner .slider-item {
+    padding: 110px 0; }
+    .banner .slider-item .text h1 {
+      font-size: 28px;
+      margin-bottom: 25px; }
+    .banner .slider-item .text p {
+      margin-bottom: 8px;
+      font-size: 11px; }
+
+  .banner-slider ul {
+    bottom: 25px; }
+
+  .fixed-ticket {
+    width: 46px;
+    right: -6px; }
+    .fixed-ticket .buy-ticket {
+      padding: 10px 10px;
+      min-width: 100px;
+      top: -70px;
+      left: -30px; }
+      .fixed-ticket .buy-ticket p {
+        font-size: 15px;
+        line-height: 20px; }
+    .fixed-ticket .tickets {
+      width: 40px;
+      height: 45px;
+      line-height: 35px;
+      font-size: 20px; }
+      .fixed-ticket .tickets img {
+        width: 20px; }
+
+  .about .text {
+    padding: 0; }
+  .about .image .big-image {
+    width: inherit; }
+  .about .image .sm-image {
+    right: 0px;
+    bottom: -80px; }
+    .about .image .sm-image img {
+      width: 80% !important; }
+    .about .image .sm-image button {
+      width: 65px;
+      height: 65px;
+      left: 40%; }
+
+  .ec-member {
+    padding-top: 160px; }
+
+  .ec-member-item {
+    height: 347px; }
+    .ec-member-item .text h4 {
+      font-size: 16px;
+      margin-bottom: 5px; }
+    .ec-member-item .text .social a {
+      width: 30px;
+      height: 30px;
+      line-height: 30px; }
+
+  .featured-shows .text .more-info {
+    font-size: 12px; }
+    .featured-shows .text .more-info::before {
+      display: none; }
+  .featured-shows .text .title {
+    font-size: 17px; }
+  .featured-shows .text span {
+    font-size: 12px;
+    margin-bottom: 0; }
+
+  .feature-item .image {
+    height: 300px; }
+
+  .production {
+    padding: 120px 0 0; }
+    .production .production-bg {
+      height: inherit;
+      background: unset !important; }
+    .production .production-video {
+      height: inherit;
+      padding: 30px; }
+      .production .production-video .production-main .video-item .overlay .icon i {
+        width: 42px;
+        height: 30px;
+        background-color: red;
+        line-height: 30px;
+        border-radius: 6px;
+        font-size: 12px; }
+      .production .production-video .production-main .video-item .text .title {
+        font-size: 12px;
+        padding: 5px 6px; }
+
+  .our-activities {
+    padding-top: 0; }
+    .our-activities .activities-bg {
+      padding-top: 80px; }
+      .our-activities .activities-bg .activities-item .text h4 {
+        font-size: 18px; }
+      .our-activities .activities-bg .activities-item .icon {
+        width: 90px;
+        height: 90px; }
+
+  .event-item .text {
+    padding-top: 20px; }
+    .event-item .text .title {
+      font-size: 20px;
+      line-height: 24px; }
+    .event-item .text ul li {
+      line-height: 22px; }
+  .event-item .buy-ticket a {
+    padding: 7px;
+    text-align: center;
+    font-size: 12px; }
+  .event-item .date h5 {
+    font-size: 50px; }
+
+  .small-news-item .text .title {
+    -webkit-line-clamp: 1; }
+  .small-news-item .text p {
+    line-height: 22px;
+    font-size: 15px;
+    -webkit-line-clamp: 3; }
+  .small-news-item .text span {
+    margin: 5px 0; }
+  .small-news-item .text .read-more {
+    margin-top: 6px; }
+
+  .big-news-item .text .read-more {
+    margin-top: 10px; }
+
+  .call-for-show .call-for-show-bg .text h4 {
+    font-size: 30px; }
+  .call-for-show .call-for-show-bg .text .call-for-show-btn {
+    padding: 10px 25px; }
+
+  .gallery .gallery-bg .gallery-button ul li .nav-link {
+    padding: 10px 12px;
+    font-size: 11px; }
+  .gallery .gallery-bg .gallery-main .photo-gallery .photo-item .image .overlay h5 {
+    font-size: 15px; }
+  .gallery .gallery-bg .gallery-main .video-gallery .video-item .overlay h5 {
+    font-size: 16px; }
+  .gallery .gallery-bg .view-all a {
+    padding: 10px 30px; }
+
+  .client .client-bg .client-item {
+    padding: 10px; }
+
+  footer .footer-title {
+    margin-bottom: 10px; }
+    footer .footer-title h4 {
+      font-size: 17px; }
+  footer .footer-contact-us ul li {
+    line-height: 25px; }
+  footer .quick-links ul li {
+    line-height: 25px; }
+  footer .footer-bottom p {
+    font-size: 12px; }
+  footer .footer-ticket ul li {
+    line-height: 25px; } }
+@media (max-width: 575px) {
+  .common-title {
+    margin-bottom: 15px;
+    text-align: center !important; }
+    .common-title h2 {
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center !important; }
+    .common-title p {
+      margin-bottom: 5px;
+      text-align: center !important; }
+
+  .common-btn {
+    text-align: center !important; }
+
+  .common-btn a {
+    padding: 6px 10px;
+    font-size: 10px; }
+
+  .logo img {
+    width: 60px; }
+
+  .banner {
+    margin: 0; }
+
+  .banner .slider-item {
+    padding: 60px 0; }
+    .banner .slider-item .text h1 {
+      font-size: 22px;
+      margin-bottom: 40px; }
+    .banner .slider-item .text p {
+      margin-bottom: 5px;
+      font-size: 10px; }
+
+  .banner-slider ul {
+    bottom: 25px; }
+
+  .fixed-ticket {
+    width: 46px;
+    right: -6px; }
+    .fixed-ticket .buy-ticket {
+      padding: 10px 10px;
+      min-width: 100px;
+      top: -70px;
+      left: -30px; }
+      .fixed-ticket .buy-ticket p {
+        font-size: 15px;
+        line-height: 20px; }
+    .fixed-ticket .tickets {
+      width: 40px;
+      height: 45px;
+      line-height: 35px;
+      font-size: 20px; }
+      .fixed-ticket .tickets img {
+        width: 20px; }
+
+  .about {
+    padding-top: 40px; }
+    .about .text {
+      padding: 0; }
+    .about .image {
+      padding-top: 10px; }
+      .about .image .big-image {
+        width: inherit; }
+      .about .image .sm-image {
+        right: -80px;
+        bottom: -80px; }
+        .about .image .sm-image img {
+          width: 70% !important; }
+        .about .image .sm-image button {
+          width: 65px;
+          height: 65px;
+          left: 36%; }
+
+  .ec-member {
+    padding-top: 110px; }
+
+  .ec-member-item {
+    height: 451px; }
+    .ec-member-item .text h4 {
+      font-size: 16px;
+      margin-bottom: 5px; }
+    .ec-member-item .text .social a {
+      width: 30px;
+      height: 30px;
+      line-height: 30px; }
+
+  .featured-shows {
+    padding-top: 40px; }
+    .featured-shows .text .more-info {
+      font-size: 12px; }
+      .featured-shows .text .more-info::before {
+        display: none; }
+    .featured-shows .text .title {
+      font-size: 17px; }
+    .featured-shows .text span {
+      font-size: 12px;
+      margin-bottom: 0; }
+
+  .feature-item .image {
+    height: auto; }
+
+  .production {
+    padding: 80px 0 0; }
+    .production .production-bg {
+      height: inherit;
+      background: unset !important; }
+    .production .production-video {
+      height: inherit;
+      padding: 30px; }
+      .production .production-video .production-main .video-item .overlay .icon i {
+        width: 42px;
+        height: 30px;
+        background-color: red;
+        line-height: 30px;
+        border-radius: 6px;
+        font-size: 12px; }
+      .production .production-video .production-main .video-item .text .title {
+        font-size: 12px;
+        padding: 5px 6px; }
+
+  .our-activities {
+    padding-top: 0; }
+    .our-activities .activities-bg {
+      padding: 40px 0; }
+      .our-activities .activities-bg .activities-item .text h4 {
+        font-size: 18px; }
+      .our-activities .activities-bg .activities-item .icon {
+        width: 90px;
+        height: 90px; }
+
+  .events {
+    padding-top: 40px; }
+
+  .event-item .text {
+    padding-top: 20px; }
+    .event-item .text .title {
+      font-size: 20px;
+      line-height: 24px; }
+    .event-item .text ul li {
+      line-height: 22px; }
+  .event-item .buy-ticket a {
+    padding: 7px;
+    text-align: center !important;
+    font-size: 12px; }
+  .event-item .date h5 {
+    font-size: 50px; }
+
+  .news {
+    padding-top: 40px; }
+
+  .small-news-item .text .title {
+    -webkit-line-clamp: 1; }
+  .small-news-item .text p {
+    line-height: 22px;
+    font-size: 15px;
+    -webkit-line-clamp: 3; }
+  .small-news-item .text span {
+    margin: 5px 0; }
+  .small-news-item .text .read-more {
+    margin-top: 6px; }
+
+  .big-news-item .text .read-more {
+    margin-top: 10px; }
+
+  .call-for-show {
+    padding-top: 40px; }
+    .call-for-show .call-for-show-bg .text h4 {
+      font-size: 25px; }
+    .call-for-show .call-for-show-bg .text .call-for-show-btn {
+      padding: 8px 20px;
+      font-size: 11px; }
+
+  .gallery .gallery-bg {
+    padding: 40px 0; }
+    .gallery .gallery-bg .gallery-button ul li .nav-link {
+      padding: 8px 12px;
+      font-size: 11px; }
+    .gallery .gallery-bg .gallery-button {
+      justify-content: center !important; }
+    .gallery .gallery-bg .gallery-main .photo-gallery .photo-item .image .overlay h5 {
+      font-size: 15px; }
+    .gallery .gallery-bg .gallery-main .video-gallery .video-item .overlay h5 {
+      font-size: 16px; }
+    .gallery .gallery-bg .view-all a {
+      padding: 8px 20px;
+      font-size: 11px; }
+
+  .client .client-bg .client-item {
+    padding: 30px; }
+
+  footer .footer-title {
+    margin-bottom: 10px; }
+    footer .footer-title h4 {
+      font-size: 17px; }
+  footer .footer-contact-us ul li {
+    line-height: 25px; }
+  footer .quick-links ul li {
+    line-height: 25px; }
+  footer .footer-bottom p {
+    font-size: 12px; }
+  footer .footer-ticket ul li {
+    line-height: 25px; } }
 
 /*# sourceMappingURL=responsive.css.map */
