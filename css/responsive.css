@@ -211,23 +211,21 @@
   .banner-slider ul {
     bottom: 25px; }
 
-  .about .image .big-image img {
-    width: 60% !important; }
-
-  .about .image .sm-image img {
-    width: 65% !important; }
-
-  .about .image .sm-image {
-    right: -130px;
-    bottom: -75px; }
-
-  .about .image .sm-image button {
-    width: 65px;
-    height: 65px;
-    left: 34%; }
-
-  .about .text {
-    padding: 0 25px; }
+  .about {
+    padding-top: 60px; }
+    .about .image .big-image img {
+      width: 60% !important; }
+    .about .image .sm-image {
+      right: -130px;
+      bottom: -75px; }
+      .about .image .sm-image img {
+        width: 65% !important; }
+      .about .image .sm-image button {
+        width: 65px;
+        height: 65px;
+        left: 34%; }
+    .about .text {
+      padding: 0 25px; }
 
   .fixed-ticket {
     width: 46px; }
@@ -395,22 +393,24 @@
       .fixed-ticket .tickets img {
         width: 20px; }
 
-  .about .text {
-    padding: 0; }
-  .about .image .big-image {
-    width: inherit; }
-  .about .image .sm-image {
-    right: 0px;
-    bottom: -80px; }
-    .about .image .sm-image img {
-      width: 80% !important; }
-    .about .image .sm-image button {
-      width: 65px;
-      height: 65px;
-      left: 40%; }
+  .about {
+    padding-top: 50px; }
+    .about .text {
+      padding: 0; }
+    .about .image .big-image {
+      width: inherit; }
+    .about .image .sm-image {
+      right: 0px;
+      bottom: -80px; }
+      .about .image .sm-image img {
+        width: 80% !important; }
+      .about .image .sm-image button {
+        width: 65px;
+        height: 65px;
+        left: 40%; }
 
   .ec-member {
-    padding-top: 160px; }
+    padding-top: 140px; }
 
   .ec-member-item {
     height: 347px; }
@@ -421,6 +421,9 @@
       width: 30px;
       height: 30px;
       line-height: 30px; }
+
+  .featured-shows {
+    padding-top: 50px; }
 
   .featured-shows .text .more-info {
     font-size: 12px; }
@@ -436,7 +439,7 @@
     height: 300px; }
 
   .production {
-    padding: 120px 0 0; }
+    padding: 100px 0 0; }
     .production .production-bg {
       height: inherit;
       background: unset !important; }
@@ -457,12 +460,15 @@
   .our-activities {
     padding-top: 0; }
     .our-activities .activities-bg {
-      padding-top: 80px; }
+      padding: 50px; }
       .our-activities .activities-bg .activities-item .text h4 {
         font-size: 18px; }
       .our-activities .activities-bg .activities-item .icon {
         width: 90px;
         height: 90px; }
+
+  .events {
+    padding-top: 50px; }
 
   .event-item .text {
     padding-top: 20px; }
@@ -478,6 +484,9 @@
   .event-item .date h5 {
     font-size: 50px; }
 
+  .news {
+    padding-top: 50px; }
+
   .small-news-item .text .title {
     -webkit-line-clamp: 1; }
   .small-news-item .text p {
@@ -492,20 +501,26 @@
   .big-news-item .text .read-more {
     margin-top: 10px; }
 
-  .call-for-show .call-for-show-bg .text h4 {
-    font-size: 30px; }
-  .call-for-show .call-for-show-bg .text .call-for-show-btn {
-    padding: 10px 25px; }
+  .call-for-show {
+    padding-top: 50px; }
+    .call-for-show .call-for-show-bg {
+      padding: 50px 0; }
+      .call-for-show .call-for-show-bg .text h4 {
+        font-size: 30px; }
+      .call-for-show .call-for-show-bg .text .call-for-show-btn {
+        padding: 10px 25px; }
 
-  .gallery .gallery-bg .gallery-button ul li .nav-link {
-    padding: 10px 12px;
-    font-size: 11px; }
-  .gallery .gallery-bg .gallery-main .photo-gallery .photo-item .image .overlay h5 {
-    font-size: 15px; }
-  .gallery .gallery-bg .gallery-main .video-gallery .video-item .overlay h5 {
-    font-size: 16px; }
-  .gallery .gallery-bg .view-all a {
-    padding: 10px 30px; }
+  .gallery .gallery-bg {
+    padding: 50px 0; }
+    .gallery .gallery-bg .gallery-button ul li .nav-link {
+      padding: 10px 12px;
+      font-size: 11px; }
+    .gallery .gallery-bg .gallery-main .photo-gallery .photo-item .image .overlay h5 {
+      font-size: 15px; }
+    .gallery .gallery-bg .gallery-main .video-gallery .video-item .overlay h5 {
+      font-size: 16px; }
+    .gallery .gallery-bg .view-all a {
+      padding: 10px 30px; }
 
   .client .client-bg .client-item {
     padding: 10px; }
@@ -561,22 +576,22 @@
 
   .fixed-ticket {
     width: 46px;
-    right: -6px; }
+    right: -16px; }
     .fixed-ticket .buy-ticket {
-      padding: 10px 10px;
-      min-width: 100px;
-      top: -70px;
-      left: -30px; }
+      padding: 10px;
+      min-width: 80px;
+      top: -55px;
+      left: -25px; }
       .fixed-ticket .buy-ticket p {
-        font-size: 15px;
-        line-height: 20px; }
+        font-size: 12px;
+        line-height: 10px; }
     .fixed-ticket .tickets {
-      width: 40px;
-      height: 45px;
-      line-height: 35px;
-      font-size: 20px; }
+      width: 30px;
+      height: 30px;
+      line-height: 25px;
+      font-size: 12px; }
       .fixed-ticket .tickets img {
-        width: 20px; }
+        width: 15px; }
 
   .about {
     padding-top: 40px; }
@@ -663,10 +678,13 @@
       line-height: 24px; }
     .event-item .text ul li {
       line-height: 22px; }
-  .event-item .buy-ticket a {
-    padding: 7px;
+  .event-item .buy-ticket {
     text-align: center !important;
-    font-size: 12px; }
+    padding-top: 20px; }
+    .event-item .buy-ticket a {
+      padding: 7px;
+      text-align: center !important;
+      font-size: 12px; }
   .event-item .date h5 {
     font-size: 50px; }
 

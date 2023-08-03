@@ -329,30 +329,35 @@
 
   // banner end
   // about css start
-  .about .image .big-image img {
-    width: 60% !important;
+  .about{
+    padding-top: 60px;
+
+    .image {
+      .big-image img {
+          width: 60% !important;
+        }
+
+      .sm-image {
+        right: -130px;
+        bottom: -75px;
+
+        img {
+            width: 65% !important;
+          }
+
+        button {
+          width: 65px;
+          height: 65px;
+          left: 34%;
+        }
+      }
+    }
+
+    .text {
+      padding: 0 25px;
+  
+    }
   }
-
-  .about .image .sm-image img {
-    width: 65% !important;
-  }
-
-  .about .image .sm-image {
-    right: -130px;
-    bottom: -75px;
-  }
-
-  .about .image .sm-image button {
-    width: 65px;
-    height: 65px;
-    left: 34%;
-  }
-
-  .about .text {
-    padding: 0 25px;
-
-  }
-
   // ticket css
   .fixed-ticket {
     width: 46px;
@@ -621,6 +626,7 @@
   //ticket end 
   // about css start
   .about {
+    padding-top: 50px;
     .text {
       padding: 0;
     }
@@ -649,7 +655,7 @@
   // about end
   // ec member css
   .ec-member {
-    padding-top: 160px;
+    padding-top: 140px;
   }
 
   .ec-member-item {
@@ -670,6 +676,9 @@
   }
   // ec member end
   // show css
+  .featured-shows{
+    padding-top: 50px;
+  }
   .featured-shows .text {
     .more-info {
       font-size: 12px;
@@ -698,7 +707,7 @@
   // show css end
   // production css
   .production {
-    padding: 120px 0 0;
+    padding: 100px 0 0;
 
     .production-bg {
       height: inherit;
@@ -732,7 +741,7 @@
     padding-top: 0;
 
     .activities-bg {
-      padding-top: 80px;
+      padding: 50px;
 
       .activities-item {
 
@@ -750,6 +759,9 @@
   // activities end
 
   // upcomming event css
+  .events{
+    padding-top: 50px;
+  }
   .event-item {
     .text {
       padding-top: 20px;
@@ -778,6 +790,9 @@
   // event end
 
   // news css
+  .news{
+    padding-top: 50px;
+  }
   .small-news-item {
 
     // padding-top: 35px;
@@ -806,19 +821,28 @@
 
   // news end
   // call for show
-  .call-for-show .call-for-show-bg .text {
-    h4 {
-      font-size: 30px;
-    }
+  .call-for-show {
+    padding-top: 50px;
 
-    .call-for-show-btn {
-      padding: 10px 25px;
+    .call-for-show-bg{
+      padding: 50px 0;
+
+      .text {
+       h4 {
+         font-size: 30px;
+       }
+   
+       .call-for-show-btn {
+         padding: 10px 25px;
+       }
+     }
     }
   }
 
   // call for end
   // gallery css
   .gallery .gallery-bg {
+    padding: 50px 0;
     .gallery-button ul li .nav-link {
       padding: 10px 12px;
       font-size: 11px;
@@ -929,28 +953,28 @@
   // ticket css
   .fixed-ticket {
     width: 46px;
-    right: -6px;
+    right: -16px;
 
     .buy-ticket {
-      padding: 10px 10px;
-      min-width: 100px;
-      top: -70px;
-      left: -30px;
+      padding: 10px;
+      min-width: 80px;
+      top: -55px;
+      left: -25px;
 
       p {
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 12px;
+        line-height: 10px;
       }
     }
 
     .tickets {
-      width: 40px;
-      height: 45px;
-      line-height: 35px;
-      font-size: 20px;
+      width: 30px;
+      height: 30px;
+      line-height: 25px;
+      font-size: 12px;
 
       img {
-        width: 20px;
+        width: 15px;
       }
     }
   }
@@ -1108,10 +1132,14 @@
         }
       }
   
-      .buy-ticket a {
-        padding: 7px;
+      .buy-ticket {
         text-align: center !important;
-        font-size: 12px;
+        padding-top: 20px;
+        a {
+          padding: 7px;
+          text-align: center !important;
+          font-size: 12px;
+        }
       }
   
       .date h5 {

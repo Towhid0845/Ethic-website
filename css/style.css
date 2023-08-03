@@ -263,7 +263,7 @@ nav {
     .mobile-topbar .logo img {
       position: fixed;
       top: 10px;
-      left: 30px;
+      left: 15px;
       z-index: 1; }
   .mobile-topbar .bars i {
     width: 40px;
