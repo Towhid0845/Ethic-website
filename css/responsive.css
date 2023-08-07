@@ -54,6 +54,10 @@
 
   .about .image .big-image {
     width: 546px; }
+  .about .image .sm-image {
+    bottom: -50px;
+    right: 50px;
+    width: 375px; }
 
   .ec-member-item {
     height: 379px; }

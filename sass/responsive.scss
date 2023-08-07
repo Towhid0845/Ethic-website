@@ -86,10 +86,16 @@
   }
 
 // about css
-.about .image .big-image {
+.about .image {
+.big-image {
 	width: 546px;
 }
-
+.sm-image {
+	bottom: -50px;
+	right: 50px;
+	width: 375px;
+}
+}
   // banner part end
   // ec member part start
   .ec-member-item {
