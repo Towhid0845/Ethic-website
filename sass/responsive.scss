@@ -1,7 +1,9 @@
 // // big screen responsive
-// @media (min-width:1400px) and (max-width:1799px) {
-
-// }
+@media (min-width:1800px) {
+  .banner-slider ul {
+    left: 250px;
+  }
+}
 // big screen responsive
 @media (min-width:1400px) and (max-width:1799px) {
 
@@ -25,6 +27,9 @@
   // banner part start
   .banner .slider-item .text h1 {
     font-size: 60px;
+  }
+  .banner-slider ul {
+    left: 10px;
   }
 
   // ec member css
@@ -55,6 +60,9 @@
   // upcomming event css
   .event-item .text .title {
     font-size: 20px;
+  }
+  .footer-right{
+    margin-right: 30px;
   }
 }
 
@@ -108,6 +116,9 @@
   .banner .slider-item {
     padding: 170px 0;
   }
+  .banner-slider ul {
+    left: 10px;
+  }
 
   // about css
   .about .image {
@@ -121,6 +132,11 @@
       width: 375px;
     }
   }
+  .about .text {
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+
   // banner part end
   // ec member part start
   .ec-member{
@@ -165,9 +181,17 @@
     font-size: 20px;
   }
 
+  // news css
+  .small-news-item .text .read-more {
+    margin-top: 10px;
+  }
+
   // footer css
   footer .footer-title h4 {
     font-size: 22px;
+  }
+  .footer-right{
+    margin-right: 30px;
   }
 }
 
@@ -231,24 +255,30 @@
   .banner .slider-item .text h1 {
     font-size: 40px;
   }
+  .banner-slider ul {
+    left: 10px;
+  }
 
   // about css
-  .about .image .big-image img {
-    width: 85% !important;
+  // .about .image .big-image img {
+  //   width: 85% !important;
+  // }
+  .about .image .big-image{
+    width: 456px;
   }
 
-  .about .image .sm-image img {
-    width: 85% !important;
-  }
+  // .about .image .sm-image img {
+  //   width: 85% !important;
+  // }
 
   .about .image .sm-image {
-    right: -65px;
+    right: 50px;
+    width: 310px;
   }
 
   .about .image .sm-image button {
     width: 65px;
     height: 65px;
-    transform: translate(-90%, -50%);
   }
 
   .common-title {
@@ -257,7 +287,10 @@
 
   .about .text {
     padding-top: 30px;
+    padding-left: 20px;
   }
+
+
 .ec-member{
   padding-top: 80px;
 }
@@ -326,6 +359,17 @@
     font-size: 55px;
   }
 
+  // news css
+  .small-news-item .text .title {
+    -webkit-line-clamp: 1;
+  }
+  .small-news-item .text span {
+    margin: 8px 0;
+  }
+  .small-news-item .text .read-more {
+    margin-top: 8px;
+  }
+
   // call for show
   .call-for-show .call-for-show-bg .text h4 {
     font-size: 35px;
@@ -368,6 +412,10 @@
 @media (min-width:768px) and (max-width:991px) {
 
   // common css start
+  body p{
+    font-size: 14px;
+    line-height: 22px;
+  }
   .common-title {
     margin-bottom: 20px;
 
@@ -414,6 +462,9 @@
   .banner-slider ul {
     bottom: 25px;
   }
+  .banner-slider ul {
+    left: 30px;
+  }
 
   // banner end
   // about css start
@@ -421,41 +472,45 @@
     padding-top: 60px;
 
     .image {
-      .big-image img {
-        width: 60% !important;
+      .big-image {
+
+        width: 100% !important;
       }
+      // img {
+      // }
 
       .sm-image {
-        right: -130px;
-        bottom: -75px;
+        right: 35px;
+        bottom: -45px;
+        width: 70% !important;
 
-        img {
-          width: 65% !important;
-        }
+        // img {
+        // }
 
         button {
           width: 65px;
           height: 65px;
-          left: 34%;
+          left: 50%;
         }
       }
     }
 
     .text {
-      padding: 0 25px;
+      padding: 0 15px;
 
     }
   }
 
   // ticket css
   .fixed-ticket {
-    width: 46px;
+    width: 42px;
+    right: -4px;
 
     .buy-ticket {
       padding: 10px 10px;
       min-width: 100px;
-      top: -73px;
-      left: -27px;
+      top: -71px;
+      left: -29px;
     }
 
     .tickets {
@@ -554,21 +609,26 @@
   }
 
   .event-item .buy-ticket a {
-    padding: 7px;
+    padding: 8px;
     text-align: center;
-    font-size: 12;
+    font-size: 12px;
   }
 
   .event-item .text ul li {
     line-height: 20px;
+    font-size: 12px;
   }
 
   .event-item .text .title {
     line-height: 22px;
+    font-size: 18px;
   }
 
   .event-item .date h5 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .event-item .date h5 span {
+    font-size: 14px;
   }
 
   // news css
@@ -578,7 +638,7 @@
     }
 
     .text p {
-      line-height: 20px;
+      line-height: 18px;
       font-size: 15px;
       -webkit-line-clamp: 3;
     }
@@ -590,6 +650,12 @@
     .text .read-more {
       margin-top: 6px;
     }
+  }
+  .small-news-item .text span {
+    font-size: 12px;
+  }
+  .small-news-item .text .read-more {
+    font-size: 14px;
   }
 
   // call for show
@@ -610,7 +676,7 @@
   }
 
   .gallery .gallery-bg .gallery-main .photo-gallery .photo-item .image .overlay h5 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .gallery .gallery-bg .view-all a {
@@ -619,7 +685,7 @@
 
   // client css
   .client .client-bg .client-item {
-    padding: 25px;
+    padding: 35px;
   }
 
 
@@ -647,6 +713,9 @@
   footer .footer-bottom p {
     font-size: 12px;
   }
+  .footer-right p{
+    padding-right: 30px;
+  }
 
 }
 
@@ -654,8 +723,12 @@
 @media (min-width:576px) and (max-width:767px) {
 
   // common css start
+  body p{
+    font-size: 14px !important;
+    line-height: 22px;
+  }
   .common-title {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 
     h2 {
       font-size: 20px;
@@ -670,7 +743,7 @@
   }
 
   .common-btn a {
-    padding: 6px 10px;
+    padding: 10px 15px;
     font-size: 12px;
   }
 
@@ -696,6 +769,9 @@
 
   .banner-slider ul {
     bottom: 25px;
+  }
+  .banner-slider ul {
+    left: 30px;
   }
 
   // banner end
@@ -809,7 +885,7 @@
 
   .feature-item {
     .image {
-      height: 300px;
+      height: 309px;
     }
   }
 
@@ -838,7 +914,7 @@
         }
 
         .text .title {
-          font-size: 12px;
+          font-size: 13px;
           padding: 5px 6px;
         }
       }
@@ -879,17 +955,18 @@
       padding-top: 20px;
 
       .title {
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 18px;
+        line-height: 22px;
       }
 
       ul li {
         line-height: 22px;
+        font-size: 13px;
       }
     }
 
     .buy-ticket a {
-      padding: 7px;
+      padding: 10px 15px;
       text-align: center;
       font-size: 12px;
     }
@@ -931,7 +1008,9 @@
   .big-news-item .text .read-more {
     margin-top: 10px;
   }
-
+  .small-news-item .text span {
+    font-size: 12px;
+  }
   // news end
   // call for show
   .call-for-show {
@@ -942,7 +1021,7 @@
 
       .text {
         h4 {
-          font-size: 30px;
+          font-size: 25px;
         }
 
         .call-for-show-btn {
@@ -980,7 +1059,7 @@
   // gallery end
   // client css
   .client .client-bg .client-item {
-    padding: 10px;
+    padding: 35px;
   }
 
   // footer css
@@ -1008,6 +1087,9 @@
     .footer-ticket ul li {
       line-height: 25px;
     }
+    .footer-right p{
+      padding-right: 45px;
+    }
   }
 }
 
@@ -1031,12 +1113,8 @@
     }
   }
 
-  .common-btn {
-    text-align: center !important;
-  }
-
   .common-btn a {
-    padding: 6px 10px;
+    padding: 10px 15px;
     font-size: 10px;
   }
 
@@ -1067,6 +1145,9 @@
 
   .banner-slider ul {
     bottom: 25px;
+  }
+  .banner-slider ul {
+    left: 10px;
   }
 
   // banner end
@@ -1109,14 +1190,14 @@
     }
 
     .image {
-      padding-top: 10px;
+      padding-top: 20px;
 
       .big-image {
-        width: inherit;
+        width: 100%;
       }
 
       .sm-image {
-        right: -80px;
+        right: -96px;
         bottom: -80px;
 
         img {
@@ -1135,7 +1216,7 @@
   // about end
   // ec member css
   .ec-member {
-    padding-top: 110px;
+    padding-top: 120px;
   }
 
   .ec-member-item {
@@ -1360,7 +1441,7 @@
   // gallery end
   // client css
   .client .client-bg .client-item {
-    padding: 30px;
+    padding: 50px;
   }
 
   // footer css
@@ -1374,20 +1455,32 @@
     }
 
     .footer-contact-us ul li {
-      line-height: 25px;
+      line-height: 22px;
+      font-size: 14px;
+    }
+    .footer-contact-us ul li a{
+      font-size: 14px;
     }
 
+    
     .quick-links ul li {
-      line-height: 25px;
+      line-height: 22px;
+    }
+    .quick-links ul li a{
+      font-size: 14px;
     }
 
     .footer-bottom p {
-      font-size: 12px;
+      font-size: 14px;
     }
 
     .footer-ticket ul li {
-      line-height: 25px;
+      line-height: 22px;
+      font-size: 14px;
     }
+  }
+  .footer-right {
+    text-align: left !important;
   }
 
 }
