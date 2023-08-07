@@ -1,3 +1,7 @@
+// // big screen responsive
+// @media (min-width:1400px) and (max-width:1799px) {
+
+// }
 // big screen responsive
 @media (min-width:1400px) and (max-width:1799px) {
 
@@ -23,14 +27,29 @@
     font-size: 60px;
   }
 
+  // ec member css
+  .ec-member {
+    padding-top: 110px;
+  }
+
   // production part css
-  .production .production-video .production-main .video-item .overlay .icon i {
-    width: 65px;
-    height: 40px;
-    background-color: red;
-    line-height: 40px;
-    border-radius: 10px;
-    font-size: 16px;
+  .production {
+    .production-bg {
+      height: 500px;
+    }
+
+    .production-video {
+      height: 580px;
+
+      .production-main .video-item .overlay .icon i {
+        width: 65px;
+        height: 40px;
+        background-color: red;
+        line-height: 40px;
+        border-radius: 10px;
+        font-size: 16px;
+      }
+    }
   }
 
   // upcomming event css
@@ -43,6 +62,9 @@
 @media (min-width:1200px) and (max-width:1399px) {
 
   // common css start
+  .common-btn a{
+    padding: 15px 28px;
+  }
   .common-title h2 {
     font-size: 35px;
   }
@@ -56,14 +78,16 @@
   }
 
   // navbar part start
-  nav ul .nav-item .nav-link {
+  nav ul .nav-item {
+  .nav-link {
     padding: 0 12px !important;
-  }
-
-  nav ul .nav-item .nav-link {
     font-size: 14px !important;
   }
 
+  ul li a{
+    font-size: 14px !important;  
+  } 
+}
   nav .call-for-show {
     margin-left: 30px;
     font-size: 13px;
@@ -85,19 +109,23 @@
     padding: 170px 0;
   }
 
-// about css
-.about .image {
-.big-image {
-	width: 546px;
-}
-.sm-image {
-	bottom: -50px;
-	right: 50px;
-	width: 375px;
-}
-}
+  // about css
+  .about .image {
+    .big-image {
+      width: 546px;
+    }
+
+    .sm-image {
+      bottom: -50px;
+      right: 50px;
+      width: 375px;
+    }
+  }
   // banner part end
   // ec member part start
+  .ec-member{
+    padding-top: 90px;
+  }
   .ec-member-item {
     height: 379px;
   }
@@ -105,7 +133,7 @@
   // ec member part end
   // featured shows part start
   .featured-shows .image {
-    height: 326px;
+    height: 328px;
   }
 
   // featured shows part end
@@ -121,11 +149,11 @@
   }
 
   .production .production-bg {
-    height: 540px;
+    height: 430px;
   }
 
   .production .production-video {
-    height: 620px;
+    height: 510px;
   }
 
   .production .production-video .production-main .video-item .text .title {
@@ -145,8 +173,9 @@
 
 // large device responsive
 @media (min-width:992px) and (max-width:1199px) {
-  body {
+  body p{
     font-size: 14px;
+    line-height: 22px;
   }
 
   header .link a {
@@ -162,11 +191,30 @@
     padding: 15px 20px;
   }
 
+  // ticket css
+  .fixed-ticket {
+    right: -4px;
+    .tickets{
+      width: 56px;
+    }
+
+    .buy-ticket {
+      top: -88px;
+      left: -32px;
+    }
+  }
+
 
   // nav css
-  nav ul .nav-item .nav-link {
-    font-size: 14px !important;
-    padding: 0 8px !important;
+  nav ul .nav-item {
+    .nav-link {
+      padding: 0 8px !important;
+      font-size: 14px !important;
+    }
+  
+    ul li a{
+      font-size: 14px !important;  
+    } 
   }
 
   nav .call-for-show {
@@ -210,27 +258,47 @@
   .about .text {
     padding-top: 30px;
   }
+.ec-member{
+  padding-top: 80px;
+}
+.ec-member-item{
+  height: 323px;
+}
 
-  .featured-shows .text .title {
-    font-size: 20px;
+  .featured-shows {
+    .image{
+      height: 271px;
+    }
+    
+    .text .title {
+      font-size: 20px;
+    }
   }
 
   // production css
-  .production .production-video .production-main .video-item .overlay .icon i {
-    width: 45px;
-    height: 30px;
-    background-color: red;
-    line-height: 30px;
-    border-radius: 7px;
-    font-size: 12px;
+  .production {
+    padding-top: 80px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    .production-video {
+      .production-main .video-item .overlay .icon i {
+        width: 45px;
+        height: 30px;
+        background-color: red;
+        line-height: 30px;
+        border-radius: 7px;
+        font-size: 12px;
+      }
+    }
   }
 
   .production .production-bg {
-    height: 480px;
+    height: 400px;
   }
 
   .production .production-video {
-    height: 565px;
+    height: 480px;
   }
 
   .production .production-video .production-main .video-item .text .title {
@@ -256,6 +324,11 @@
 
   .event-item .date h5 {
     font-size: 55px;
+  }
+
+  // call for show
+  .call-for-show .call-for-show-bg .text h4 {
+    font-size: 35px;
   }
 
   // gallery css
@@ -286,6 +359,9 @@
     line-height: 30px;
   }
 
+  .footer-right p{
+    padding-right: 30px;
+  }
 }
 
 // medium device responsive
@@ -306,7 +382,7 @@
   }
 
   .common-btn a {
-    padding: 10px 15px;
+    padding: 12px 15px;
   }
 
   // common end
@@ -317,9 +393,10 @@
 
   // nav end
   // banner part start
-  .banner{
+  .banner {
     margin: 0;
   }
+
   .banner .slider-item {
     padding: 150px 0;
 
@@ -340,21 +417,21 @@
 
   // banner end
   // about css start
-  .about{
+  .about {
     padding-top: 60px;
 
     .image {
       .big-image img {
-          width: 60% !important;
-        }
+        width: 60% !important;
+      }
 
       .sm-image {
         right: -130px;
         bottom: -75px;
 
         img {
-            width: 65% !important;
-          }
+          width: 65% !important;
+        }
 
         button {
           width: 65px;
@@ -366,9 +443,10 @@
 
     .text {
       padding: 0 25px;
-  
+
     }
   }
+
   // ticket css
   .fixed-ticket {
     width: 46px;
@@ -388,7 +466,10 @@
     }
   }
 
-  // member css
+  // member css.
+  .ec-member{
+    padding-top: 80px;
+  }
   .ec-member-item {
     height: 318px;
 
@@ -422,40 +503,50 @@
 
   .feature-item {
     .image {
-      height: 285px;
+      height: 271px;
     }
   }
 
 
   // production css
-  .production .production-video .production-main .video-item .overlay .icon i {
-    width: 35px;
-    height: 25px;
-    background-color: red;
-    line-height: 25px;
-    border-radius: 6px;
-    font-size: 9px;
-  }
 
-  .production .production-bg {
-    height: 300px;
-  }
+  .production {
+    padding: 100px 0 0;
 
-  .production .production-video {
-    height: 380px;
-    padding: 30px;
-  }
+    .production-bg {
+      height: inherit;
+      background: unset !important;
+    }
 
-  .production .production-video .production-main .video-item .text .title {
-    font-size: 12px;
-    padding: 5px 6px;
+    .production-video {
+      height: inherit;
+      padding: 30px;
+
+      .production-main .video-item {
+        .overlay .icon i {
+          width: 50px;
+          height: 35px;
+          background-color: red;
+          line-height: 35px;
+          border-radius: 6px;
+          font-size: 12px;
+        }
+
+        .text .title {
+          font-size: 14px;
+          padding: 5px 6px;
+        }
+      }
+    }
   }
 
   // activities css
-  .our-activities .activities-bg .activities-item .text h4 {
+  .our-activities {
+    padding-top: 0;
+  .activities-bg .activities-item .text h4 {
     font-size: 20px;
   }
-
+}
 
   // upcomming event css
   .event-item .text .title {
@@ -582,11 +673,13 @@
     padding: 6px 10px;
     font-size: 12px;
   }
+
   // common end
   // banner css start
   .banner {
     margin: 0;
   }
+
   .banner .slider-item {
     padding: 110px 0;
 
@@ -604,7 +697,7 @@
   .banner-slider ul {
     bottom: 25px;
   }
- 
+
   // banner end
   // ticket css
   .fixed-ticket {
@@ -634,10 +727,12 @@
       }
     }
   }
+
   //ticket end 
   // about css start
   .about {
     padding-top: 50px;
+
     .text {
       padding: 0;
     }
@@ -663,6 +758,7 @@
       }
     }
   }
+
   // about end
   // ec member css
   .ec-member {
@@ -685,11 +781,13 @@
       }
     }
   }
+
   // ec member end
   // show css
-  .featured-shows{
+  .featured-shows {
     padding-top: 50px;
   }
+
   .featured-shows .text {
     .more-info {
       font-size: 12px;
@@ -746,6 +844,7 @@
       }
     }
   }
+
   // production end
   // activities css
   .our-activities {
@@ -767,12 +866,14 @@
       }
     }
   }
+
   // activities end
 
   // upcomming event css
-  .events{
+  .events {
     padding-top: 50px;
   }
+
   .event-item {
     .text {
       padding-top: 20px;
@@ -801,9 +902,10 @@
   // event end
 
   // news css
-  .news{
+  .news {
     padding-top: 50px;
   }
+
   .small-news-item {
 
     // padding-top: 35px;
@@ -835,18 +937,18 @@
   .call-for-show {
     padding-top: 50px;
 
-    .call-for-show-bg{
+    .call-for-show-bg {
       padding: 50px 0;
 
       .text {
-       h4 {
-         font-size: 30px;
-       }
-   
-       .call-for-show-btn {
-         padding: 10px 25px;
-       }
-     }
+        h4 {
+          font-size: 30px;
+        }
+
+        .call-for-show-btn {
+          padding: 10px 25px;
+        }
+      }
     }
   }
 
@@ -854,6 +956,7 @@
   // gallery css
   .gallery .gallery-bg {
     padding: 50px 0;
+
     .gallery-button ul li .nav-link {
       padding: 10px 12px;
       font-size: 11px;
@@ -873,7 +976,8 @@
       padding: 10px 30px;
     }
   }
-// gallery end
+
+  // gallery end
   // client css
   .client .client-bg .client-item {
     padding: 10px;
@@ -883,7 +987,7 @@
   footer {
     .footer-title {
       margin-bottom: 10px;
-  
+
       h4 {
         font-size: 17px;
       }
@@ -908,7 +1012,8 @@
 }
 
 // extra small device resopnsive
-@media (max-width:575px){
+@media (max-width:575px) {
+
   // common css start
   .common-title {
     margin-bottom: 15px;
@@ -926,7 +1031,7 @@
     }
   }
 
-  .common-btn{
+  .common-btn {
     text-align: center !important;
   }
 
@@ -934,15 +1039,18 @@
     padding: 6px 10px;
     font-size: 10px;
   }
+
   // common end
   // mobile part css
-  .logo img{
+  .logo img {
     width: 60px;
   }
+
   // banner css start
   .banner {
     margin: 0;
   }
+
   .banner .slider-item {
     padding: 60px 0;
 
@@ -960,6 +1068,7 @@
   .banner-slider ul {
     bottom: 25px;
   }
+
   // banner end
   // ticket css
   .fixed-ticket {
@@ -989,38 +1098,42 @@
       }
     }
   }
+
   //ticket end
-    // about css start
-    .about {
-      padding-top: 40px;
-      .text {
-        padding: 0;
+  // about css start
+  .about {
+    padding-top: 40px;
+
+    .text {
+      padding: 0;
+    }
+
+    .image {
+      padding-top: 10px;
+
+      .big-image {
+        width: inherit;
       }
-  
-      .image {
-        padding-top: 10px;
-        .big-image {
-          width: inherit;
+
+      .sm-image {
+        right: -80px;
+        bottom: -80px;
+
+        img {
+          width: 70% !important;
         }
-  
-        .sm-image {
-          right: -80px;
-          bottom: -80px;
-  
-          img {
-            width: 70% !important;
-          }
-  
-          button {
-            width: 65px;
-            height: 65px;
-            left: 36%;
-          }
+
+        button {
+          width: 65px;
+          height: 65px;
+          left: 36%;
         }
       }
     }
-    // about end
-    // ec member css
+  }
+
+  // about end
+  // ec member css
   .ec-member {
     padding-top: 110px;
   }
@@ -1041,37 +1154,39 @@
       }
     }
   }
-  // ec member end
-// show css
-.featured-shows{
-  padding-top: 40px;
 
-  .text {
-    .more-info {
-      font-size: 12px;
-  
-      &::before {
-        display: none;
+  // ec member end
+  // show css
+  .featured-shows {
+    padding-top: 40px;
+
+    .text {
+      .more-info {
+        font-size: 12px;
+
+        &::before {
+          display: none;
+        }
+      }
+
+      .title {
+        font-size: 17px;
+      }
+
+      span {
+        font-size: 12px;
+        margin-bottom: 0;
       }
     }
-  
-    .title {
-      font-size: 17px;
-    }
-  
-    span {
-      font-size: 12px;
-      margin-bottom: 0;
-    }
   }
-}
 
-.feature-item {
-  .image {
-    height: auto;
+  .feature-item {
+    .image {
+      height: auto;
+    }
   }
-}
-// show css end
+
+  // show css end
   // production css
   .production {
     padding: 80px 0 0;
@@ -1102,137 +1217,146 @@
       }
     }
   }
+
   // production end
 
-    // activities css
-    .our-activities {
-      padding-top: 0;
-  
-      .activities-bg {
-        padding: 40px 0;
-  
-        .activities-item {
-  
-          .text h4 {
-            font-size: 18px;
-          }
-  
-          .icon {
-            width: 90px;
-            height: 90px;
-          }
-        }
-      }
-    }
-    // activities end
-    // upcomming event css
-    .events{
-      padding-top: 40px;
-    }
-    .event-item {
-      .text {
-        padding-top: 20px;
-  
-        .title {
-          font-size: 20px;
-          line-height: 24px;
-        }
-  
-        ul li {
-          line-height: 22px;
-        }
-      }
-  
-      .buy-ticket {
-        text-align: center !important;
-        padding-top: 20px;
-        a {
-          padding: 7px;
-          text-align: center !important;
-          font-size: 12px;
-        }
-      }
-  
-      .date h5 {
-        font-size: 50px;
-      }
-    }
-  
-    // event end
-    // news css
-    .news{
-      padding-top: 40px;
-    }
-    .small-news-item {
+  // activities css
+  .our-activities {
+    padding-top: 0;
 
-      // padding-top: 35px;
-      .text .title {
-        -webkit-line-clamp: 1;
+    .activities-bg {
+      padding: 40px 0;
+
+      .activities-item {
+
+        .text h4 {
+          font-size: 18px;
+        }
+
+        .icon {
+          width: 90px;
+          height: 90px;
+        }
       }
-  
-      .text p {
+    }
+  }
+
+  // activities end
+  // upcomming event css
+  .events {
+    padding-top: 40px;
+  }
+
+  .event-item {
+    .text {
+      padding-top: 20px;
+
+      .title {
+        font-size: 20px;
+        line-height: 24px;
+      }
+
+      ul li {
         line-height: 22px;
-        font-size: 15px;
-        -webkit-line-clamp: 3;
-      }
-  
-      .text span {
-        margin: 5px 0;
-      }
-  
-      .text .read-more {
-        margin-top: 6px;
       }
     }
-  
-    .big-news-item .text .read-more {
-      margin-top: 10px;
+
+    .buy-ticket {
+      text-align: center !important;
+      padding-top: 20px;
+
+      a {
+        padding: 7px;
+        text-align: center !important;
+        font-size: 12px;
+      }
     }
-  
-    // news end
-    // call for show
+
+    .date h5 {
+      font-size: 50px;
+    }
+  }
+
+  // event end
+  // news css
+  .news {
+    padding-top: 40px;
+  }
+
+  .small-news-item {
+
+    // padding-top: 35px;
+    .text .title {
+      -webkit-line-clamp: 1;
+    }
+
+    .text p {
+      line-height: 22px;
+      font-size: 15px;
+      -webkit-line-clamp: 3;
+    }
+
+    .text span {
+      margin: 5px 0;
+    }
+
+    .text .read-more {
+      margin-top: 6px;
+    }
+  }
+
+  .big-news-item .text .read-more {
+    margin-top: 10px;
+  }
+
+  // news end
+  // call for show
   .call-for-show {
     padding-top: 40px;
+
     .call-for-show-bg .text {
       h4 {
         font-size: 25px;
       }
-  
+
       .call-for-show-btn {
         padding: 8px 20px;
         font-size: 11px;
       }
     }
   }
-  
+
 
   // call for end
-    // gallery css
-    .gallery .gallery-bg {
-      padding: 40px 0;
-      .gallery-button ul li .nav-link {
-        padding: 8px 12px;
-        font-size: 11px;
+  // gallery css
+  .gallery .gallery-bg {
+    padding: 40px 0;
+
+    .gallery-button ul li .nav-link {
+      padding: 8px 12px;
+      font-size: 11px;
+    }
+
+    .gallery-button {
+      justify-content: center !important;
+    }
+
+    .gallery-main {
+      .photo-gallery .photo-item .image .overlay h5 {
+        font-size: 15px;
       }
-      .gallery-button{
-        justify-content: center !important;
-      }
-  
-      .gallery-main {
-        .photo-gallery .photo-item .image .overlay h5 {
-          font-size: 15px;
-        }
-  
-        .video-gallery .video-item .overlay h5 {
-          font-size: 16px;
-        }
-      }
-  
-      .view-all a {
-        padding: 8px 20px;
-        font-size: 11px;
+
+      .video-gallery .video-item .overlay h5 {
+        font-size: 16px;
       }
     }
+
+    .view-all a {
+      padding: 8px 20px;
+      font-size: 11px;
+    }
+  }
+
   // gallery end
   // client css
   .client .client-bg .client-item {
@@ -1243,7 +1367,7 @@
   footer {
     .footer-title {
       margin-bottom: 10px;
-  
+
       h4 {
         font-size: 17px;
       }
