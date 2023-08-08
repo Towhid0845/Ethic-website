@@ -37,7 +37,7 @@
     font-size: 20px; }
 
   .footer-right {
-    margin-right: 30px; } }
+    margin-right: 70px !important; } }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .common-btn a {
     padding: 15px 28px; }
@@ -194,7 +194,7 @@
     font-size: 20px; }
 
   .production {
-    padding-top: 80px;
+    padding-top: 115px;
     padding-left: 0 !important;
     padding-right: 0 !important; }
     .production .production-video .production-main .video-item .overlay .icon i {
@@ -242,8 +242,8 @@
     font-size: 35px; }
 
   .gallery .gallery-bg .gallery-button ul li .nav-link {
-    padding: 12px 14px;
-    font-size: 13px; }
+    padding: 12px 20px;
+    font-size: 14px; }
 
   .our-activities .activities-bg .activities-item .text h4 {
     font-size: 20px; }
@@ -385,11 +385,11 @@
 
   .event-item .text ul li {
     line-height: 20px;
-    font-size: 12px; }
+    font-size: 14px; }
 
   .event-item .text .title {
     line-height: 22px;
-    font-size: 18px; }
+    font-size: 20px; }
 
   .event-item .date h5 {
     font-size: 30px; }
@@ -421,7 +421,7 @@
 
   .gallery .gallery-bg .gallery-button ul li .nav-link {
     padding: 11px;
-    font-size: 12px; }
+    font-size: 13px; }
 
   .gallery .gallery-bg .gallery-main .photo-gallery .photo-item .image .overlay h5 {
     font-size: 16px; }
@@ -447,7 +447,7 @@
     line-height: 25px; }
 
   footer .footer-bottom p {
-    font-size: 12px; }
+    font-size: 15px; }
 
   .footer-right p {
     padding-right: 30px; } }
@@ -457,9 +457,9 @@
     line-height: 22px; }
 
   .common-title {
-    margin-bottom: 25px; }
+    margin-bottom: 35px; }
     .common-title h2 {
-      font-size: 20px;
+      font-size: 28px;
       line-height: 30px;
       text-align: center !important; }
     .common-title p {
@@ -468,7 +468,7 @@
 
   .common-btn a {
     padding: 10px 15px;
-    font-size: 12px; }
+    font-size: 13px; }
 
   .banner {
     margin: 0; }
@@ -511,17 +511,19 @@
     padding-top: 50px; }
     .about .text {
       padding: 0; }
-    .about .image .big-image {
-      width: inherit; }
-    .about .image .sm-image {
-      right: 0px;
-      bottom: -80px; }
-      .about .image .sm-image img {
-        width: 80% !important; }
-      .about .image .sm-image button {
-        width: 65px;
-        height: 65px;
-        left: 40%; }
+    .about .image {
+      padding-top: 15px; }
+      .about .image .big-image {
+        width: inherit; }
+      .about .image .sm-image {
+        right: 0px;
+        bottom: -80px; }
+        .about .image .sm-image img {
+          width: 80% !important; }
+        .about .image .sm-image button {
+          width: 65px;
+          height: 65px;
+          left: 40%; }
 
   .ec-member {
     padding-top: 140px; }
@@ -568,7 +570,7 @@
         border-radius: 6px;
         font-size: 12px; }
       .production .production-video .production-main .video-item .text .title {
-        font-size: 13px;
+        font-size: 15px;
         padding: 5px 6px; }
 
   .our-activities {
@@ -587,15 +589,15 @@
   .event-item .text {
     padding-top: 20px; }
     .event-item .text .title {
-      font-size: 18px;
+      font-size: 20px;
       line-height: 22px; }
     .event-item .text ul li {
       line-height: 22px;
-      font-size: 13px; }
+      font-size: 15px; }
   .event-item .buy-ticket a {
-    padding: 10px 15px;
+    padding: 8px 20px;
     text-align: center;
-    font-size: 12px; }
+    font-size: 13px; }
   .event-item .date h5 {
     font-size: 50px; }
 
@@ -603,7 +605,9 @@
     padding-top: 50px; }
 
   .small-news-item .text .title {
-    -webkit-line-clamp: 1; }
+    -webkit-line-clamp: 1;
+    font-size: 20px;
+    line-height: 20px; }
   .small-news-item .text p {
     line-height: 22px;
     font-size: 15px;
@@ -659,19 +663,22 @@
     padding-right: 45px; } }
 @media (max-width: 575px) {
   .common-title {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     text-align: center !important; }
     .common-title h2 {
-      font-size: 20px;
+      font-size: 25px;
       line-height: 30px;
       text-align: center !important; }
     .common-title p {
       margin-bottom: 5px;
       text-align: center !important; }
 
+  .common-btn {
+    margin-top: 40px; }
+
   .common-btn a {
     padding: 10px 15px;
-    font-size: 10px; }
+    font-size: 13px; }
 
   .logo img {
     width: 60px; }
@@ -689,29 +696,27 @@
       font-size: 10px; }
 
   .banner-slider ul {
-    bottom: 25px; }
-
-  .banner-slider ul {
+    bottom: 25px;
     left: 10px; }
 
   .fixed-ticket {
-    width: 46px;
-    right: -16px; }
+    width: 38px;
+    right: 0; }
     .fixed-ticket .buy-ticket {
-      padding: 10px;
-      min-width: 80px;
-      top: -55px;
-      left: -25px; }
+      padding: 5px 10px;
+      min-width: 100px;
+      top: -68px;
+      left: -31px; }
       .fixed-ticket .buy-ticket p {
-        font-size: 12px;
-        line-height: 10px; }
+        font-size: 14px;
+        line-height: 28px; }
     .fixed-ticket .tickets {
-      width: 30px;
-      height: 30px;
-      line-height: 25px;
+      width: 38px;
+      height: 38px;
+      line-height: 28px;
       font-size: 12px; }
       .fixed-ticket .tickets img {
-        width: 15px; }
+        width: 18px; }
 
   .about {
     padding-top: 40px; }
@@ -775,7 +780,7 @@
         border-radius: 6px;
         font-size: 12px; }
       .production .production-video .production-main .video-item .text .title {
-        font-size: 12px;
+        font-size: 15px;
         padding: 5px 6px; }
 
   .our-activities {
@@ -799,10 +804,10 @@
     .event-item .text ul li {
       line-height: 22px; }
   .event-item .buy-ticket {
-    text-align: center !important;
+    text-align: left !important;
     padding-top: 20px; }
     .event-item .buy-ticket a {
-      padding: 7px;
+      padding: 7px 10px;
       text-align: center !important;
       font-size: 12px; }
   .event-item .date h5 {
@@ -812,13 +817,15 @@
     padding-top: 40px; }
 
   .small-news-item .text .title {
-    -webkit-line-clamp: 1; }
+    -webkit-line-clamp: 1;
+    padding-top: 15px; }
   .small-news-item .text p {
     line-height: 22px;
     font-size: 15px;
     -webkit-line-clamp: 3; }
   .small-news-item .text span {
-    margin: 5px 0; }
+    margin: 5px 0;
+    font-size: 12px; }
   .small-news-item .text .read-more {
     margin-top: 6px; }
 
@@ -830,14 +837,14 @@
     .call-for-show .call-for-show-bg .text h4 {
       font-size: 25px; }
     .call-for-show .call-for-show-bg .text .call-for-show-btn {
-      padding: 8px 20px;
-      font-size: 11px; }
+      padding: 10px 25px;
+      font-size: 13px; }
 
   .gallery .gallery-bg {
     padding: 40px 0; }
     .gallery .gallery-bg .gallery-button ul li .nav-link {
-      padding: 8px 12px;
-      font-size: 11px; }
+      padding: 10px 14px;
+      font-size: 13px; }
     .gallery .gallery-bg .gallery-button {
       justify-content: center !important; }
     .gallery .gallery-bg .gallery-main .photo-gallery .photo-item .image .overlay h5 {
@@ -845,8 +852,8 @@
     .gallery .gallery-bg .gallery-main .video-gallery .video-item .overlay h5 {
       font-size: 16px; }
     .gallery .gallery-bg .view-all a {
-      padding: 8px 20px;
-      font-size: 11px; }
+      padding: 10px 14px;
+      font-size: 13px; }
 
   .client .client-bg .client-item {
     padding: 50px; }
@@ -854,7 +861,7 @@
   footer .footer-title {
     margin-bottom: 10px; }
     footer .footer-title h4 {
-      font-size: 17px; }
+      font-size: 20px; }
   footer .footer-contact-us ul li {
     line-height: 22px;
     font-size: 14px; }
@@ -865,7 +872,7 @@
   footer .quick-links ul li a {
     font-size: 14px; }
   footer .footer-bottom p {
-    font-size: 14px; }
+    font-size: 15px; }
   footer .footer-ticket ul li {
     line-height: 22px;
     font-size: 14px; }

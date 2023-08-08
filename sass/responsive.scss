@@ -4,6 +4,7 @@
     left: 250px;
   }
 }
+
 // big screen responsive
 @media (min-width:1400px) and (max-width:1799px) {
 
@@ -28,6 +29,7 @@
   .banner .slider-item .text h1 {
     font-size: 60px;
   }
+
   .banner-slider ul {
     left: 10px;
   }
@@ -61,8 +63,9 @@
   .event-item .text .title {
     font-size: 20px;
   }
-  .footer-right{
-    margin-right: 30px;
+
+  .footer-right {
+    margin-right: 70px !important;
   }
 }
 
@@ -70,9 +73,10 @@
 @media (min-width:1200px) and (max-width:1399px) {
 
   // common css start
-  .common-btn a{
+  .common-btn a {
     padding: 15px 28px;
   }
+
   .common-title h2 {
     font-size: 35px;
   }
@@ -87,15 +91,16 @@
 
   // navbar part start
   nav ul .nav-item {
-  .nav-link {
-    padding: 0 12px !important;
-    font-size: 14px !important;
+    .nav-link {
+      padding: 0 12px !important;
+      font-size: 14px !important;
+    }
+
+    ul li a {
+      font-size: 14px !important;
+    }
   }
 
-  ul li a{
-    font-size: 14px !important;  
-  } 
-}
   nav .call-for-show {
     margin-left: 30px;
     font-size: 13px;
@@ -116,6 +121,7 @@
   .banner .slider-item {
     padding: 170px 0;
   }
+
   .banner-slider ul {
     left: 10px;
   }
@@ -132,6 +138,7 @@
       width: 375px;
     }
   }
+
   .about .text {
     padding-top: 30px;
     padding-left: 40px;
@@ -139,9 +146,10 @@
 
   // banner part end
   // ec member part start
-  .ec-member{
+  .ec-member {
     padding-top: 90px;
   }
+
   .ec-member-item {
     height: 379px;
   }
@@ -190,14 +198,15 @@
   footer .footer-title h4 {
     font-size: 22px;
   }
-  .footer-right{
+
+  .footer-right {
     margin-right: 30px;
   }
 }
 
 // large device responsive
 @media (min-width:992px) and (max-width:1199px) {
-  body p{
+  body p {
     font-size: 14px;
     line-height: 22px;
   }
@@ -218,7 +227,8 @@
   // ticket css
   .fixed-ticket {
     right: -4px;
-    .tickets{
+
+    .tickets {
       width: 56px;
     }
 
@@ -235,10 +245,10 @@
       padding: 0 8px !important;
       font-size: 14px !important;
     }
-  
-    ul li a{
-      font-size: 14px !important;  
-    } 
+
+    ul li a {
+      font-size: 14px !important;
+    }
   }
 
   nav .call-for-show {
@@ -255,6 +265,7 @@
   .banner .slider-item .text h1 {
     font-size: 40px;
   }
+
   .banner-slider ul {
     left: 10px;
   }
@@ -263,7 +274,7 @@
   // .about .image .big-image img {
   //   width: 85% !important;
   // }
-  .about .image .big-image{
+  .about .image .big-image {
     width: 456px;
   }
 
@@ -291,18 +302,19 @@
   }
 
 
-.ec-member{
-  padding-top: 80px;
-}
-.ec-member-item{
-  height: 323px;
-}
+  .ec-member {
+    padding-top: 80px;
+  }
+
+  .ec-member-item {
+    height: 323px;
+  }
 
   .featured-shows {
-    .image{
+    .image {
       height: 271px;
     }
-    
+
     .text .title {
       font-size: 20px;
     }
@@ -310,7 +322,7 @@
 
   // production css
   .production {
-    padding-top: 80px;
+    padding-top: 115px;
     padding-left: 0 !important;
     padding-right: 0 !important;
 
@@ -363,9 +375,11 @@
   .small-news-item .text .title {
     -webkit-line-clamp: 1;
   }
+
   .small-news-item .text span {
     margin: 8px 0;
   }
+
   .small-news-item .text .read-more {
     margin-top: 8px;
   }
@@ -377,8 +391,8 @@
 
   // gallery css
   .gallery .gallery-bg .gallery-button ul li .nav-link {
-    padding: 12px 14px;
-    font-size: 13px;
+    padding: 12px 20px;
+    font-size: 14px;
   }
 
   // activities css
@@ -403,7 +417,7 @@
     line-height: 30px;
   }
 
-  .footer-right p{
+  .footer-right p {
     padding-right: 30px;
   }
 }
@@ -412,10 +426,11 @@
 @media (min-width:768px) and (max-width:991px) {
 
   // common css start
-  body p{
+  body p {
     font-size: 14px;
     line-height: 22px;
   }
+
   .common-title {
     margin-bottom: 20px;
 
@@ -462,6 +477,7 @@
   .banner-slider ul {
     bottom: 25px;
   }
+
   .banner-slider ul {
     left: 30px;
   }
@@ -476,6 +492,7 @@
 
         width: 100% !important;
       }
+
       // img {
       // }
 
@@ -522,9 +539,10 @@
   }
 
   // member css.
-  .ec-member{
+  .ec-member {
     padding-top: 80px;
   }
+
   .ec-member-item {
     height: 318px;
 
@@ -598,10 +616,11 @@
   // activities css
   .our-activities {
     padding-top: 0;
-  .activities-bg .activities-item .text h4 {
-    font-size: 20px;
+
+    .activities-bg .activities-item .text h4 {
+      font-size: 20px;
+    }
   }
-}
 
   // upcomming event css
   .event-item .text .title {
@@ -616,17 +635,18 @@
 
   .event-item .text ul li {
     line-height: 20px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .event-item .text .title {
     line-height: 22px;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .event-item .date h5 {
     font-size: 30px;
   }
+
   .event-item .date h5 span {
     font-size: 14px;
   }
@@ -651,9 +671,11 @@
       margin-top: 6px;
     }
   }
+
   .small-news-item .text span {
     font-size: 12px;
   }
+
   .small-news-item .text .read-more {
     font-size: 14px;
   }
@@ -672,7 +694,7 @@
   // gallery css
   .gallery .gallery-bg .gallery-button ul li .nav-link {
     padding: 11px;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .gallery .gallery-bg .gallery-main .photo-gallery .photo-item .image .overlay h5 {
@@ -711,9 +733,10 @@
   }
 
   footer .footer-bottom p {
-    font-size: 12px;
+    font-size: 15px;
   }
-  .footer-right p{
+
+  .footer-right p {
     padding-right: 30px;
   }
 
@@ -723,15 +746,16 @@
 @media (min-width:576px) and (max-width:767px) {
 
   // common css start
-  body p{
+  body p {
     font-size: 14px !important;
     line-height: 22px;
   }
+
   .common-title {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 
     h2 {
-      font-size: 20px;
+      font-size: 28px;
       line-height: 30px;
       text-align: center !important;
     }
@@ -742,9 +766,11 @@
     }
   }
 
-  .common-btn a {
-    padding: 10px 15px;
-    font-size: 12px;
+  .common-btn{
+    a {
+     padding: 10px 15px;
+     font-size: 13px;
+   }
   }
 
   // common end
@@ -770,6 +796,7 @@
   .banner-slider ul {
     bottom: 25px;
   }
+
   .banner-slider ul {
     left: 30px;
   }
@@ -814,7 +841,9 @@
     }
 
     .image {
+      padding-top: 15px;
       .big-image {
+
         width: inherit;
       }
 
@@ -914,7 +943,7 @@
         }
 
         .text .title {
-          font-size: 13px;
+          font-size: 15px;
           padding: 5px 6px;
         }
       }
@@ -955,20 +984,20 @@
       padding-top: 20px;
 
       .title {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 22px;
       }
 
       ul li {
         line-height: 22px;
-        font-size: 13px;
+        font-size: 15px;
       }
     }
 
     .buy-ticket a {
-      padding: 10px 15px;
+      padding: 8px 20px;
       text-align: center;
-      font-size: 12px;
+      font-size: 13px;
     }
 
     .date h5 {
@@ -988,6 +1017,8 @@
     // padding-top: 35px;
     .text .title {
       -webkit-line-clamp: 1;
+      font-size: 20px;
+      line-height: 20px;
     }
 
     .text p {
@@ -1008,9 +1039,11 @@
   .big-news-item .text .read-more {
     margin-top: 10px;
   }
+
   .small-news-item .text span {
     font-size: 12px;
   }
+
   // news end
   // call for show
   .call-for-show {
@@ -1087,7 +1120,8 @@
     .footer-ticket ul li {
       line-height: 25px;
     }
-    .footer-right p{
+
+    .footer-right p {
       padding-right: 45px;
     }
   }
@@ -1098,11 +1132,11 @@
 
   // common css start
   .common-title {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     text-align: center !important;
 
     h2 {
-      font-size: 20px;
+      font-size: 25px;
       line-height: 30px;
       text-align: center !important;
     }
@@ -1113,9 +1147,12 @@
     }
   }
 
+  .common-btn{
+    margin-top: 40px;
+  }
   .common-btn a {
     padding: 10px 15px;
-    font-size: 10px;
+    font-size: 13px;
   }
 
   // common end
@@ -1145,37 +1182,35 @@
 
   .banner-slider ul {
     bottom: 25px;
-  }
-  .banner-slider ul {
     left: 10px;
   }
 
   // banner end
   // ticket css
   .fixed-ticket {
-    width: 46px;
-    right: -16px;
+    width: 38px;
+    right: 0;
 
     .buy-ticket {
-      padding: 10px;
-      min-width: 80px;
-      top: -55px;
-      left: -25px;
+      padding: 5px 10px;
+      min-width: 100px;
+      top: -68px;
+      left: -31px;
 
       p {
-        font-size: 12px;
-        line-height: 10px;
+        font-size: 14px;
+        line-height: 28px;
       }
     }
 
     .tickets {
-      width: 30px;
-      height: 30px;
-      line-height: 25px;
+      width: 38px;
+      height: 38px;
+      line-height: 28px;
       font-size: 12px;
 
       img {
-        width: 15px;
+        width: 18px;
       }
     }
   }
@@ -1292,7 +1327,7 @@
         }
 
         .text .title {
-          font-size: 12px;
+          font-size: 15px;
           padding: 5px 6px;
         }
       }
@@ -1343,11 +1378,11 @@
     }
 
     .buy-ticket {
-      text-align: center !important;
+      text-align: left !important;
       padding-top: 20px;
 
       a {
-        padding: 7px;
+        padding: 7px 10px;
         text-align: center !important;
         font-size: 12px;
       }
@@ -1369,6 +1404,7 @@
     // padding-top: 35px;
     .text .title {
       -webkit-line-clamp: 1;
+      padding-top: 15px;
     }
 
     .text p {
@@ -1379,6 +1415,7 @@
 
     .text span {
       margin: 5px 0;
+      font-size: 12px;
     }
 
     .text .read-more {
@@ -1401,8 +1438,8 @@
       }
 
       .call-for-show-btn {
-        padding: 8px 20px;
-        font-size: 11px;
+        padding: 10px 25px;
+        font-size: 13px;
       }
     }
   }
@@ -1414,8 +1451,8 @@
     padding: 40px 0;
 
     .gallery-button ul li .nav-link {
-      padding: 8px 12px;
-      font-size: 11px;
+      padding: 10px 14px;
+      font-size: 13px;
     }
 
     .gallery-button {
@@ -1433,8 +1470,8 @@
     }
 
     .view-all a {
-      padding: 8px 20px;
-      font-size: 11px;
+      padding: 10px 14px;
+      font-size: 13px;
     }
   }
 
@@ -1450,7 +1487,7 @@
       margin-bottom: 10px;
 
       h4 {
-        font-size: 17px;
+        font-size: 20px;
       }
     }
 
@@ -1458,20 +1495,22 @@
       line-height: 22px;
       font-size: 14px;
     }
-    .footer-contact-us ul li a{
+
+    .footer-contact-us ul li a {
       font-size: 14px;
     }
 
-    
+
     .quick-links ul li {
       line-height: 22px;
     }
-    .quick-links ul li a{
+
+    .quick-links ul li a {
       font-size: 14px;
     }
 
     .footer-bottom p {
-      font-size: 14px;
+      font-size: 15px;
     }
 
     .footer-ticket ul li {
@@ -1479,6 +1518,7 @@
       font-size: 14px;
     }
   }
+
   .footer-right {
     text-align: left !important;
   }
